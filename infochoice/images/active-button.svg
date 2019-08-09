@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="253" height="46" viewBox="0 0 253 46">
+    <defs>
+        <rect id="b" width="249.529" height="46" rx="23"/>
+        <filter id="a" width="116%" height="187%" x="-8%" y="-34.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0.785627425 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#32C5FF" xlink:href="#b"/>
+        <text fill="#FFF" font-family="Poppins-Regular, Poppins" font-size="15">
+            <tspan x="39.6" y="28">View Citi’s Special Offer</tspan>
+        </text>
+    </g>
+</svg>
